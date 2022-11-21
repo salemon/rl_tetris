@@ -2,7 +2,7 @@
 
 ## env
 Execute the following steps to setup the repository and install the required dependencies.
-+ 
+//
 conda create -n iclo-autumn-2022 python=3.9
 conda env update -n iclo-autumn-2022 -f environment.yml
 conda activate iclo-autumn-2022
