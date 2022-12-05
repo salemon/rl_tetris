@@ -28,7 +28,7 @@ def noisy_reward(env,weights):
         next_action=best_state(action_state_dict,index)
 
         _, reward, done, _=env.step(next_action)
-        reward_sum=reward
+        reward_sum+=reward
         if done:
             #print("finished episode, got reward:{}".format(reward_sum))
             break
