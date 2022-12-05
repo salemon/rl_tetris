@@ -7,7 +7,7 @@ Execute the following steps to setup the repository and install the required dep
 + conda activate iclo-autumn-2022
 
 ## Train
-in CEm_Noise.py line 70 run with iters = 501 first, then lets see if we could go 10000
+in CEm_Noise.py line 70 run with iters = 501 first, 
 
 + python CEM_Noise.py
 
